@@ -10,7 +10,7 @@ Script to revoke sessions (done)
 Script to remove user from all groups in Tenant with one button.
 Script to Setup offboarding forwarding rule.
 
-##Later Goals:
+## Later Goals:
 Design Forms App
 Add ability to modify offboarin procedure based on conditions of departure.
 Add feature to create audit event on managers calendar.
