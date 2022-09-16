@@ -10,8 +10,10 @@ Script to disable user (done)
 Script to revoke sessions (done)
 Script to remove user from all groups in Tenant with one button.
 Script to Setup offboarding forwarding rule.
+Script to switch tenants easily 
 
-## Later Goals:
+## For the future!
 Design Forms App
-Add ability to modify offboarin procedure based on conditions of departure.
+Create installer for .exe
+Add ability to modify offboaring procedure based on conditions of departure.
 Add feature to create audit event on managers calendar.
