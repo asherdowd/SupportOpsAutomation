@@ -1,5 +1,6 @@
 # SupportOpsAutomation
-Overview: For onboading and offboarding employees using Powershell | AzureAD Module.  This tool will eventually be imported to a Windows Form and compiled to an installer.
+# Overview: 
+Tools for onboading and offboarding employees using Powershell | AzureAD Module.  This tool will eventually be imported to a Windows Form and compiled to an installer.
 
 ## Initial Goals: 
 Get minimally viable scripts going for working release.
