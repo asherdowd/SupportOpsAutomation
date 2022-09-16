@@ -1,0 +1,71 @@
+Employee Automation
+
+Module related:
+use windows powershell only
+ Install-Module -Name AzureAD -Credential seth@lazlo326.com
+Import-Module AzureAD
+Connect-AzureAD (You may to confirm things or only run connect)
+
+
+
+
+Offboarding Tasks:
+-Enter a user: $user = "<username@lazlo****>"
+- Disable User: Set-AzureADUser -ObjectId $user -AccountEnabled $false
+- Revoke MFA 
+& AD Sessions: Revoke-AzureADUserAllRefreshToken -ObjectId $user
+- Remove from Postman (need enterprise to automate)
+- de-activate user license in 365:
+	\\ READ-WRITE ALL FOR OR
+			Connect-Graph -Scopes User.ReadWrite.All, Organization.Read.All
+
+			
+- Block & Disable from lazlo326.com tenant
+- Deactivate in dev tenants
+- Revoke MFA in Dev Tenants
+- Remove user from Loom
+- Create Audit event in calendar for managers group.
+
+
+
+Onboarding Tasks: 
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+
+
+
+
+
+Maint Tasks:
+-Change Manager
+-Change Location
+-Reset Password
+-
+
+
+
+
+
+
+
+
+
+
+1	class Group {
+  DeletionTimestamp: 
+  ObjectId: cdf17e1c-dce8-4a51-8703-d7006f01c06c
+  ObjectType: Group
+  Description: Support Central
+  DirSyncEnabled: 
+  DisplayName: Support Central
+  LastDirSyncTime: 
+  Mail: SupportCentral@lazlo326.com
+...	Microsoft.Open.AzureAD.Model.Group	
