@@ -12,7 +12,10 @@ Tools for onboading and offboarding employees using Powershell | AzureAD Module.
 ### Script to Setup offboarding forwarding rule.
 ### Script to switch tenants easily 
 
+
+
 ## For the future!
+### Develop Onboarding Script
 ### Design Forms App
 ### Create installer for .exe
 ### Add ability to modify offboaring procedure based on conditions of departure.
